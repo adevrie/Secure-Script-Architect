@@ -54,3 +54,15 @@ needs improvement to better reference specific security rules.
 ### Planned Improvements
 - Explicitly reference credential and execution rules in refusal messages.
 - Strengthen language around least-privilege enforcement.
+--------------------------------------------------------------------------------
+
+
+## System Prompt Iteration – v2
+
+Expanded the system prompt to require explicit context gathering
+before script generation. This change reduces unsafe assumptions
+around privileges, credential handling, and execution scope.
+
+Observed improvement:
+- The model pauses to ask clarification questions
+- Reduced generation of potentially unsafe defaults
