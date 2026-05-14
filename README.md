@@ -49,3 +49,17 @@ The system may ask clarifying questions before generating a script
 to ensure security context is understood.
 
 Unsafe or insecure requests will be refused with an explanation.
+
+## Live Demo (Work in Progress)
+
+A public-facing demo of the Secure Script Architect is deployed using Lovable
+to demonstrate the system prompt and security enforcement behavior.
+
+Live demo:
+https://<your-lovable-url-here>
+
+The Lovable deployment embeds the system prompt documented in
+System_Prompt.md and enforces the security rules defined in
+Security_Standards.md. The Lovable-generated repository is treated as
+an implementation artifact, while this repository remains the source
+of truth for design, iteration, and evaluation.
