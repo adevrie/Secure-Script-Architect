@@ -22,21 +22,30 @@ scripts while enforcing secure coding standards and explaining why certain patte
 - Prefer Get‑Credential, PowerShell SecretManagement, or environment variables
 - Explicit warnings and refusals for insecure requests
 
-## Status
-Project 1 (Draft) – Prompt engineering and grounding phase
-``
+## Project Progress (Week 1)
 
+This project is currently in active development as part of a two-week
+prompt-engineering assignment.
 
-## Current Status
+Completed so far:
+- Defined explicit PowerShell security standards
+- Designed and iterated on a system prompt enforcing those standards
+- Tested prompt behavior across multiple environments
+  (chat-based testing and Google AI Studio)
+- Created an initial public deployment using Lovable
 
-Project 1 implementation ongoing.
+Current focus:
+- Evaluating consistency of prompt behavior in a deployed environment
+- Refining clarification questions and refusal explanations
+- Preparing for additional iteration and polish in the second project week
 
-- Security standards defined and documented
-- System prompt iterated and validated
-- Prompt behavior tested against safe, risky, and unsafe scenarios
-- Secure Script Architect deployed as a public demo using Lovable
+This project intentionally prioritizes prompt engineering, grounding,
+and evaluation over full automation or production-ready tooling.
 
-This project focuses on prompt engineering, grounding, and evaluation rather
-than full automation or production deployment.
+## Using the Secure Script Architect
 
-Here is my Loveable DEMO URL:
+Users describe a PowerShell automation task in natural language.
+The system may ask clarifying questions before generating a script
+to ensure security context is understood.
+
+Unsafe or insecure requests will be refused with an explanation.
