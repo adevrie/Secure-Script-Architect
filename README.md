@@ -23,3 +23,18 @@ scripts while enforcing secure coding standards and explaining why certain patte
 ## Status
 Project 1 (Draft) – Prompt engineering and grounding phase
 ``
+
+
+## Current Status
+
+Project 1 implementation ongoing.
+
+- Security standards defined and documented
+- System prompt iterated and validated
+- Prompt behavior tested against safe, risky, and unsafe scenarios
+- Secure Script Architect deployed as a public demo using Lovable
+
+This project focuses on prompt engineering, grounding, and evaluation rather
+than full automation or production deployment.
+
+Here is my Loveable DEMO URL:
