@@ -117,3 +117,14 @@ Next steps:
 - Continue prompt refinement based on deployed behavior
 - Improve explanation clarity for refusals and warnings
 - Polish deployment presentation and documentation in Week 2
+
+## Deployment Notes
+
+The Secure Script Architect was deployed using Lovable to validate
+prompt behavior in a public application.
+
+Lovable automatically generated a separate GitHub repository for
+deployment. That repository is not used as the primary project repo.
+All design decisions, security standards, and prompt iteration remain
+documented here.
+``
