@@ -1,3 +1,5 @@
+Note: This is a Week 1 Draft. Core security logic and deployment structure are operational; UI refinement and deeper evaluation are planned for Week 2
+
 # Secure Script Architect – PowerShell Edition
 
 ## Overview
