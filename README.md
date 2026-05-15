@@ -22,6 +22,21 @@ scripts while enforcing secure coding standards and explaining why certain patte
 - Prefer Get‑Credential, PowerShell SecretManagement, or environment variables
 - Explicit warnings and refusals for insecure requests
 
+## Honest Limits
+
+This system does not validate scripts against a live environment
+It does not replace peer review or security tooling
+Prompt enforcement is policy-based, not a formal security boundary
+UI is intentionally minimal
+
+## Tools Used
+
+Gemini & CoPilot LLMs for prompt iteration and testing
+Google AI Studio (Gemini) for system instruction validation
+Lovable for deployment and public demo
+GitHub for source control and documentation
+Visual Studio Code for editing and iteration
+
 ## Project Progress (Week 1)
 
 This project is currently in active development as part of a two-week
