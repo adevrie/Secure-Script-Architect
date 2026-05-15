@@ -24,18 +24,18 @@ scripts while enforcing secure coding standards and explaining why certain patte
 
 ## Honest Limits
 
-This system does not validate scripts against a live environment
-It does not replace peer review or security tooling
-Prompt enforcement is policy-based, not a formal security boundary
-UI is intentionally minimal
+This system does not validate scripts against a live environment.
+It does not replace peer review or security tooling.
+Prompt enforcement is policy-based, not a formal security boundary.
+UI is intentionally minimal.
 
 ## Tools Used
 
-Gemini & CoPilot LLMs for prompt iteration and testing
-Google AI Studio (Gemini) for system instruction validation
-Lovable for deployment and public demo
-GitHub for source control and documentation
-Visual Studio Code for editing and iteration
+Gemini & CoPilot LLMs for prompt iteration and testing.
+Google AI Studio (Gemini) for system instruction validation.
+Lovable for deployment and public demo.
+GitHub for source control and documentation.
+Visual Studio Code for editing and iteration.
 
 ## Project Progress (Week 1)
 
